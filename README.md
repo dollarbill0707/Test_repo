@@ -97,3 +97,13 @@ Here are some things in different categories that you can do to make the app bet
 * Try to avoid any bugs or weirdness in the operating logic.
 
 * Feel free to add would-be-nice-to-haves in the app / infra setup that you didn't have time to complete as possible further improvements in README.
+
+
+
+#Better app
+1. I have created 2 Dockerfiles: first for backend and second one for the frontend
+2. I have created docker-compose file to run both above Dockerfiles simultaneously and also I have modified some necessary files to be able to run containers locally
+3. I have assigned ports for both Docker files.
+4. To be able to run app locally you should have docker preinstalled on your pc and after you copied this repo you can run command docker-compose up --build and after frontend will be available on port 8000 and backend on port 10000 as it written in the code.
+5. I have created EC2 instance on aws to deploy my containers on cloud.
+6. While you want to acces it please contact me(my phone +48 512 172 217)bacause I will start my instance, in the case I don't want to leave it on "running" mode. 
