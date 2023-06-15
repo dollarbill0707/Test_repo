@@ -25,6 +25,7 @@ class Weather extends React.Component {
 
   async componentDidMount() {
     const weather = await getWeatherFromApi();
+    console.log(weather);
     this.setState({icon: weather.icon.slice(0, -1)});
   }
 
@@ -32,6 +33,7 @@ class Weather extends React.Component {
     const { icon } = this.state;
 
     return (
+      
       <div className="icon">
         { icon && <img src={`/img/${icon}.svg`} /> }
       </div>
